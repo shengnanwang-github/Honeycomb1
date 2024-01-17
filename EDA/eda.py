@@ -9,7 +9,7 @@ import seaborn as sns
 import pandas as pd
 
 # Load data
-data = pd.read_csv('/home/ubuntu/Honeycomb1/Data/clean_data.csv')
+data = pd.read_csv('/home/ubuntu/Honeycomb1/Data/survey_cleaned.csv')
 
 # Setting the aesthetics for the plots
 sns.set(style="whitegrid")
@@ -92,7 +92,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 # Load the dataset
-file_path = '/home/ubuntu/Honeycomb1/Data/clean_data.csv'
+file_path = '/home/ubuntu/Honeycomb1/Data/survey_cleaned.csv'
 data = pd.read_csv(file_path)
 
 # Convert categorical features to numerical

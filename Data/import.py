@@ -7,7 +7,7 @@
 import pandas as pd
 
 # Load the dataset
-# dataset_path = '/home/ubuntu/Honeycomb1/Data/Data.csv'
+# dataset_path = '/home/ubuntu/Honeycomb1/Data/survey_cleaned.csv'
 
 dataset_path = '/home/ubuntu/Honeycomb1/Data/Data.csv'
 data = pd.read_csv(dataset_path)
