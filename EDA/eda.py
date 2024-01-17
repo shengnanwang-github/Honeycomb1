@@ -9,7 +9,7 @@ import seaborn as sns
 import pandas as pd
 
 # Load data
-data = pd.read_csv('/home/ubuntu/Honeycomb/Data/clean_data.csv')
+data = pd.read_csv('/home/ubuntu/Honeycomb1/Data/clean_data.csv')
 
 # Setting the aesthetics for the plots
 sns.set(style="whitegrid")
@@ -28,7 +28,7 @@ plt.xlabel('Country')
 plt.ylabel('Number of Respondents')
 
 # Create a directory for saving plots if it doesn't exist
-save_dir = "/home/ubuntu/Honeycomb/EDA"
+save_dir = "/home/ubuntu/Honeycomb1/EDA"
 os.makedirs(save_dir, exist_ok=True)
 
 # Save the plot
@@ -52,7 +52,7 @@ plt.xlabel('Age Group')
 plt.ylabel('Number of Respondents')
 
 # Create a directory for saving plots if it doesn't exist
-save_dir = "/home/ubuntu/Honeycomb/EDA"
+save_dir = "/home/ubuntu/Honeycomb1/EDA"
 os.makedirs(save_dir, exist_ok=True)
 
 # Save the plot
@@ -74,7 +74,7 @@ plt.xlabel('Treatment')
 plt.ylabel('Family History of Mental Health Issues')
 
 # Create a directory for saving plots if it doesn't exist
-save_dir = "/home/ubuntu/Honeycomb/EDA"
+save_dir = "/home/ubuntu/Honeycomb1/EDA"
 os.makedirs(save_dir, exist_ok=True)
 
 # Save the plot
@@ -92,7 +92,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 # Load the dataset
-file_path = '/home/ubuntu/Honeycomb/Data/clean_data.csv'
+file_path = '/home/ubuntu/Honeycomb1/Data/clean_data.csv'
 data = pd.read_csv(file_path)
 
 # Convert categorical features to numerical
@@ -121,7 +121,7 @@ sns.heatmap(corr, annot=True, fmt=".2f")
 plt.title('Heatmap of Variables Correlation with Treatment')
 
 # Create a directory for saving plots if it doesn't exist
-save_dir = "/home/ubuntu/Honeycomb/EDA"
+save_dir = "/home/ubuntu/Honeycomb1/EDA"
 os.makedirs(save_dir, exist_ok=True)
 
 # Save the plot

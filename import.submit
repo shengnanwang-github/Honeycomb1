@@ -1,7 +1,7 @@
-executable      =   Honeycomb/Data/import.py
-Output          =   Honeycomb/Data/output.txt
-Error           =   Honeycomb/Data/error.txt
-Log             =   Honeycomb/Data/log.txt
+executable      =   Honeycomb1/Data/import.py
+Output          =   Honeycomb1/Data/output.txt
+Error           =   Honeycomb1/Data/error.txt
+Log             =   Honeycomb1/Data/log.txt
 
 notification=Never
 Arguements=$(Process)

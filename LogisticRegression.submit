@@ -1,7 +1,7 @@
-executable      =   Honeycomb/Model/LogisticRegression/model.py
-Output          =   Honeycomb/Model/LogisticRegression/output.txt
-Error           =   Honeycomb/Model/LogisticRegression/error.txt
-Log             =   Honeycomb/Model/LogisticRegression/log.txt
+executable      =   Honeycomb1/Model/LogisticRegression/model.py
+Output          =   Honeycomb1/Model/LogisticRegression/output.txt
+Error           =   Honeycomb1/Model/LogisticRegression/error.txt
+Log             =   Honeycomb1/Model/LogisticRegression/log.txt
 
 notification=Never
 Arguements=$(Process)

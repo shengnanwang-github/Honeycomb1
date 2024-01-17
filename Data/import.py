@@ -7,9 +7,9 @@
 import pandas as pd
 
 # Load the dataset
-# dataset_path = '/home/ubuntu/Honeycomb/Data/Data.csv'
+# dataset_path = '/home/ubuntu/Honeycomb1/Data/Data.csv'
 
-dataset_path = '/home/ubuntu/Honeycomb/Data/Data.csv'
+dataset_path = '/home/ubuntu/Honeycomb1/Data/Data.csv'
 data = pd.read_csv(dataset_path)
 df = pd.read_csv(dataset_path)
 data_types = df.dtypes

@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 
 # Load the dataset
-file_path = '/home/ubuntu/Honeycomb/Data/clean_data.csv'
+file_path = '/home/ubuntu/Honeycomb1/Data/clean_data.csv'
 data = pd.read_csv(file_path, parse_dates=['Timestamp'])
 
 # Convert categorical features to numerical

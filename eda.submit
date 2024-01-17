@@ -1,7 +1,7 @@
-executable      =   Honeycomb/EDA/eda.py
-Output          =   Honeycomb/EDA/output.txt
-Error           =   Honeycomb/EDA/error.txt
-Log             =   Honeycomb/EDA/log.txt
+executable      =   Honeycomb1/EDA/eda.py
+Output          =   Honeycomb1/EDA/output.txt
+Error           =   Honeycomb1/EDA/error.txt
+Log             =   Honeycomb1/EDA/log.txt
 
 notification=Never
 Arguements=$(Process)
