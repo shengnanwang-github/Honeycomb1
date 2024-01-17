@@ -1,0 +1,10 @@
+executable      =   Honeycomb/Model/RandomForest/model/Model/RandomForest/model.py
+Output          =   Honeycomb/Model/RandomForest/output.txt
+Error           =   Honeycomb/Model/RandomForest/error.txt
+Log             =   Honeycomb/Model/RandomForest/log.txt
+
+notification=Never
+Arguements=$(Process)
+PeriodicRelease=(JobStatus==5)&&(CurrentTime-EnteredCurrentState>30)
+onExitRemove=(ExitStatus==0)
+Queue

@@ -1,0 +1,10 @@
+executable      =   Honeycomb/EDA/eda.py
+Output          =   Honeycomb/EDA/output.txt
+Error           =   Honeycomb/EDA/error.txt
+Log             =   Honeycomb/EDA/log.txt
+
+notification=Never
+Arguements=$(Process)
+PeriodicRelease=(JobStatus==5)&&(CurrentTime-EnteredCurrentState>30)
+onExitRemove=(ExitStatus==0)
+Queue

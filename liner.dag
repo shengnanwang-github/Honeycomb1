@@ -1,0 +1,7 @@
+JOB import                   import.submit
+JOB eda                      eda.submit
+JOB LogisticRegression       LogisticRegression.submit
+JOB RandomForest             RandomForest.submit
+PARENT import                CHILD eda
+PARENT eda                   CHILD LogisticRegression
+PARENT eda             		 CHILD RandomForest
